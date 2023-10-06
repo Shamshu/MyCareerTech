@@ -1,0 +1,5 @@
+google-auth
+gspread
+wordcloud
+plotly-express
+streamlit-tags
