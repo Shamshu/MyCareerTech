@@ -54,13 +54,13 @@ if check_password():
     if(st.sidebar.button("Get my shorts")):
         #scores_for_q1
         if(q_indus == 'Adaptability'):
-            with open('Adaptability_final.pickle', 'rb') as handle:
+            with open('Adaptability.pickle', 'rb') as handle:
                 data_dic = ps.read_pickle(handle)
         elif(q_indus == 'Creativity'):
-            with open('CreativityInnovation_final.pickle', 'rb') as handle:
+            with open('CreativityInnovation.pickle', 'rb') as handle:
                 data_dic = ps.read_pickle(handle)
         else:
-            with open('Teamwork_final.pickle', 'rb') as handle:
+            with open('Teamwork.pickle', 'rb') as handle:
                 data_dic = ps.read_pickle(handle)
             
         vid_files = data_dic['files']
